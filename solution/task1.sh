@@ -1,2 +1,2 @@
 #!/bin/bash
-grep data/pushkin.txt -io "дверь" | wc -l
+grep "дверь" -io data/pushkin.txt | wc -l
