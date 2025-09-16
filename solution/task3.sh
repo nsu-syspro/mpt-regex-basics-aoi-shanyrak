@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "Пугачев" -iw data/pushkin.txt | wc -l
+grep "\<Пугачев\>" -io data/pushkin.txt | wc -l
